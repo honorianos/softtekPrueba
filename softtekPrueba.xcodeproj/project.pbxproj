@@ -16,6 +16,11 @@
 		E2A4FD742B646975002810AB /* softtekPruebaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A4FD732B646975002810AB /* softtekPruebaTests.swift */; };
 		E2A4FD7E2B646975002810AB /* softtekPruebaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A4FD7D2B646975002810AB /* softtekPruebaUITests.swift */; };
 		E2A4FD802B646975002810AB /* softtekPruebaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A4FD7F2B646975002810AB /* softtekPruebaUITestsLaunchTests.swift */; };
+		E2C0508B2B646BF600C6B532 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E2C0508A2B646BF600C6B532 /* Kingfisher */; };
+		E2C0508E2B646C0600C6B532 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E2C0508D2B646C0600C6B532 /* IQKeyboardManagerSwift */; };
+		E2C050912B646C5700C6B532 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = E2C050902B646C5700C6B532 /* JGProgressHUD */; };
+		E2C050942B646C6800C6B532 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E2C050932B646C6800C6B532 /* Alamofire */; };
+		E2C050982B6470E000C6B532 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E2C050972B6470E000C6B532 /* CryptoSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C0508B2B646BF600C6B532 /* Kingfisher in Frameworks */,
+				E2C050942B646C6800C6B532 /* Alamofire in Frameworks */,
+				E2C050912B646C5700C6B532 /* JGProgressHUD in Frameworks */,
+				E2C050982B6470E000C6B532 /* CryptoSwift in Frameworks */,
+				E2C0508E2B646C0600C6B532 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +153,13 @@
 			dependencies = (
 			);
 			name = softtekPrueba;
+			packageProductDependencies = (
+				E2C0508A2B646BF600C6B532 /* Kingfisher */,
+				E2C0508D2B646C0600C6B532 /* IQKeyboardManagerSwift */,
+				E2C050902B646C5700C6B532 /* JGProgressHUD */,
+				E2C050932B646C6800C6B532 /* Alamofire */,
+				E2C050972B6470E000C6B532 /* CryptoSwift */,
+			);
 			productName = softtekPrueba;
 			productReference = E2A4FD592B646974002810AB /* softtekPrueba.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +232,14 @@
 				Base,
 			);
 			mainGroup = E2A4FD502B646973002810AB;
+			packageReferences = (
+				E2C050892B646BF600C6B532 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				E2C0508C2B646C0600C6B532 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				E2C0508F2B646C5700C6B532 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				E2C050922B646C6800C6B532 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E2C050952B646EB100C6B532 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				E2C050962B6470E000C6B532 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = E2A4FD5A2B646974002810AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -601,6 +626,85 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E2C050892B646BF600C6B532 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
+		E2C0508C2B646C0600C6B532 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		E2C0508F2B646C5700C6B532 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+		E2C050922B646C6800C6B532 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		E2C050952B646EB100C6B532 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+		E2C050962B6470E000C6B532 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E2C0508A2B646BF600C6B532 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2C050892B646BF600C6B532 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		E2C0508D2B646C0600C6B532 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2C0508C2B646C0600C6B532 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		E2C050902B646C5700C6B532 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2C0508F2B646C5700C6B532 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		E2C050932B646C6800C6B532 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2C050922B646C6800C6B532 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E2C050972B6470E000C6B532 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2C050962B6470E000C6B532 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E2A4FD512B646973002810AB /* Project object */;
 }
