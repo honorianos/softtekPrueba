@@ -36,7 +36,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func didTapToggleHide(_ sender: Any) {
         buttonHideShowPassword.isSelected = !buttonHideShowPassword.isSelected
-        tfEmail.isSecureTextEntry = !buttonHideShowPassword.isSelected
+        tfPassword.isSecureTextEntry = !buttonHideShowPassword.isSelected
     }
     
     
