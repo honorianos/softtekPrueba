@@ -44,10 +44,10 @@ class LoginViewController: UIViewController {
 
 extension LoginViewController: LoginViewUI {
     func errorUser() {
-        ()
+        Utils.shared.showSimpleAlert(titulo: UtilsText.alertTittle, mensaje: UtilsText.errorUser, vc: self)
     }
     
     func errorDefault() {
-        ()
+        Utils.shared.showSimpleAlert(titulo: UtilsText.alertTittle, mensaje: UtilsText.errorServer, vc: self)
     }
 }
