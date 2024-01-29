@@ -29,6 +29,9 @@ Se usa las siguientes librerias:
 - implement test unit  y el moock service in interactors
 - delete de un object no used detailObject
 
+#Para probar el login con el usuario
+user: Admin
+password: Password*123.
 
 
 
