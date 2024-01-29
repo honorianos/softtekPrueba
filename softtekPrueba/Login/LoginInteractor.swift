@@ -6,3 +6,20 @@
 //
 
 import Foundation
+import Alamofire
+
+protocol LoginInteractorProtocol: AnyObject {
+    func validateUser(user:LoginEntity)-> Bool
+}
+
+class LoginInteractor: LoginInteractorProtocol {
+    typealias QueryResult = (DataResponse<Any>?) -> ()
+    
+    func validateUser(user:LoginEntity)-> Bool {
+        if user.user.contains("Admin") && user.password.contains("Password*123.") {
+            return true
+        }
+       return true
+    }
+    
+}

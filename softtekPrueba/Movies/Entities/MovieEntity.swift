@@ -13,14 +13,18 @@ struct MovieEntityResponse: Decodable {
 
 struct MovieEntity : Decodable {
     var id: Int
-    var title: String
-    var overview: String
     var imageUrl: String?
-    var vote_count: Int
+    var nameOfMovie: String
+    var note: Float
+    var releaseDate: String
+    var resume: String
     
     enum CodingKeys: String, CodingKey {
-        case id, title, overview
+        case id
         case imageUrl = "poster_path"
-        case vote_count
+        case nameOfMovie = "title"
+        case note = "vote_average"
+        case releaseDate = "release_date"
+        case resume = "overview"
     }
 }

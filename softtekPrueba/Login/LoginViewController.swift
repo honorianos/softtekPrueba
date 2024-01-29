@@ -9,18 +9,29 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
+    private var presenter: LoginViewPresenterProtocol
+    
+    init(presenter: LoginViewPresenterProtocol) {
+        self.presenter = presenter
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    override func viewDidLoad() {
+        
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     @IBOutlet weak var buttonHideShowPassword: UIButton!
     @IBOutlet weak var tfEmail: UITextField!
     @IBOutlet weak var tfPassword: UITextField!
     
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
+
     
     @IBAction func didTapEnter(_ sender: Any) {
-        
+        presenter.validateUser(user: tfEmail.text ?? String(), password: tfPassword.text ?? String())
     }
     
     @IBAction func didTapToggleHide(_ sender: Any) {
@@ -29,4 +40,14 @@ class LoginViewController: UIViewController {
     }
     
     
+}
+
+extension LoginViewController: LoginViewUI {
+    func errorUser() {
+        ()
+    }
+    
+    func errorDefault() {
+        ()
+    }
 }

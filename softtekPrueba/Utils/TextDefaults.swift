@@ -15,6 +15,7 @@ enum UtilsText {
     static let moviesSimilarTittle = "Peliculas Similares"
     static let alertTittle = "Atención"
     static let errorMessage = "Ocurrio un error."
+    static let errorMessageNetwork = "Ocurrio un error se encuentra sin internet."
     static let errorServer = "Error al cargar Data"
 }
 

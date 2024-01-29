@@ -20,7 +20,7 @@ class MoviesCellTableViewCell: UICollectionViewCell {
         let url = URL(string: Utils.getUrlImageComplete(urlIncomplete: data.imageUrl ?? String()))
         imageCategory.kf.setImage(with: url)
         imageCategory.contentMode = .scaleToFill
-        labelName.text = data.title
+        labelName.text = data.nameOfMovie
         labelDate.text = String(data.id)
     }
 }

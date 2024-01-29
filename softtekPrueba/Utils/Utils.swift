@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 public class Utils{
+    static let shared = Utils()
     
     func showSimpleAlert(titulo: String, mensaje: String, vc: UIViewController, okBtn: String = UtilsText.Accept){
         let alertOffline = UIAlertController(title: titulo, message: mensaje, preferredStyle: .alert)

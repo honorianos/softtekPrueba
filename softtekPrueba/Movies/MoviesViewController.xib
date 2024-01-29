@@ -31,6 +31,10 @@
                                 <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                 <inset key="sectionInset" minX="15" minY="15" maxX="15" maxY="15"/>
                             </collectionViewFlowLayout>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="Kch-sh-Jn7"/>
+                                <outlet property="delegate" destination="-1" id="pIm-nV-1Z0"/>
+                            </connections>
                         </collectionView>
                         <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="BbR-6I-rxB">
                             <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
