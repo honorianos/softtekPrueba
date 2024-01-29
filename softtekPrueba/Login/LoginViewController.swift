@@ -36,18 +36,16 @@ class LoginViewController: UIViewController {
     
     @IBAction func didTapToggleHide(_ sender: Any) {
         buttonHideShowPassword.isSelected = !buttonHideShowPassword.isSelected
-        tfEmail.isSecureTextEntry = !buttonHideShowPassword.isSelected
+        tfPassword.isSecureTextEntry = !buttonHideShowPassword.isSelected
     }
     
     
 }
 
 extension LoginViewController: LoginViewUI {
-    func errorUser() {
-        ()
-    }
-    
-    func errorDefault() {
-        ()
+    func errorUser(navigationRoot: UINavigationController) {
+        let alertOffline = UIAlertController(title: UtilsText.alertTittle, message: UtilsText.errorUser, preferredStyle: .alert)
+        alertOffline.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        navigationRoot.present(alertOffline, animated: true, completion: nil)
     }
 }

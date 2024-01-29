@@ -15,8 +15,7 @@ protocol LoginViewPresenterProtocol: AnyObject {
 }
 
 protocol LoginViewUI: AnyObject {
-    func errorUser()
-    func errorDefault()
+    func errorUser(navigationRoot: UINavigationController)
 }
 
 class LoginPresenter: LoginViewPresenterProtocol {
@@ -37,11 +36,8 @@ class LoginPresenter: LoginViewPresenterProtocol {
             print("usuario valido")
             flowToListOfMovies()
         case false:
-            view?.errorUser()
+            view?.errorUser(navigationRoot: router.navigationRoot!)
             print("usuario no valido")
-        default:
-            view?.errorDefault()
-            print("ocurrio un error en validacion del usuario \(userToValidated)")
         }
     }
     
