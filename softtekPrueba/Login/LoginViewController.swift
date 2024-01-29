@@ -43,11 +43,9 @@ class LoginViewController: UIViewController {
 }
 
 extension LoginViewController: LoginViewUI {
-    func errorUser() {
-        Utils.shared.showSimpleAlert(titulo: UtilsText.alertTittle, mensaje: UtilsText.errorUser, vc: self)
-    }
-    
-    func errorDefault() {
-        Utils.shared.showSimpleAlert(titulo: UtilsText.alertTittle, mensaje: UtilsText.errorServer, vc: self)
+    func errorUser(navigationRoot: UINavigationController) {
+        let alertOffline = UIAlertController(title: UtilsText.alertTittle, message: UtilsText.errorUser, preferredStyle: .alert)
+        alertOffline.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        navigationRoot.present(alertOffline, animated: true, completion: nil)
     }
 }
