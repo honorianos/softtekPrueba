@@ -52,5 +52,629 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13FC1DD9-92E2-49BE-83B2-A115777FBBD3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Utils/Defaults/Defaults.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "getValues(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E87F03C8-762F-4997-999C-DB29DF7874AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Utils/Defaults/Defaults.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "getValues(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89C88DAA-1819-4DC9-9D62-CD0D64B82BDE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Movies/MoviesPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "parseMovies(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E047BACD-AB80-4194-9046-CE1E688ECDED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Movies/MoviesInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getDataMovies(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E047BACD-AB80-4194-9046-CE1E688ECDED - d99460444083a482"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "softtekPrueba.MoviesInteractor.getDataMovies(completion: (Swift.Optional&lt;Alamofire.DataResponse&lt;Any&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/Movies/MoviesInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "764">
+               </Location>
+               <Location
+                  uuid = "E047BACD-AB80-4194-9046-CE1E688ECDED - d99460444083a482"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "softtekPrueba.MoviesInteractor.getDataMovies(completion: (Swift.Optional&lt;Alamofire.DataResponse&lt;Any&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/Movies/MoviesInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "888">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63D05134-2DB2-41F9-8733-EE9A530349DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Data/swiftData/Service/DatabaseService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "saveMovies(listMovies:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88FB8D99-31DC-426A-914E-E490ACDA2B03"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Movies/MoviesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "presentMovies(movies:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "88FB8D99-31DC-426A-914E-E490ACDA2B03 - 1b739dcb38748067"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "softtekPrueba.MoviesViewController.presentMovies(movies: Swift.Array&lt;softtekPrueba.ModelMovie&gt;) -&gt; ()"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/Movies/MoviesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "88FB8D99-31DC-426A-914E-E490ACDA2B03 - 60abf65e32273190"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "softtekPrueba.MoviesViewController.presentMovies(movies: Swift.Array&lt;softtekPrueba.MovieEntity&gt;) -&gt; ()"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/Movies/MoviesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E887D8C9-D2BF-4EBC-B9B9-B30C4F31E996"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Data/swiftData/Service/DatabaseService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "DatabaseServiceMovie"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E887D8C9-D2BF-4EBC-B9B9-B30C4F31E996 - 4392e8a1f29cc141"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "one-time initialization function for shared"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/Data/swiftData/Service/DatabaseService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "E887D8C9-D2BF-4EBC-B9B9-B30C4F31E996 - 2bc59f45584d248f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "softtekPrueba.DatabaseServiceMovie.shared.unsafeMutableAddressor : softtekPrueba.DatabaseServiceMovie"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/Data/swiftData/Service/DatabaseService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F6E9665-040A-4A36-AB44-731C4984D56A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Movies/MoviesPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "parseMovies(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B34C1AB-7BF0-4DD7-9B46-C6D48E441055"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Movies/MoviesPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "parseMovies(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4B34C1AB-7BF0-4DD7-9B46-C6D48E441055 - 4d50156b1f02613c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "softtekPrueba.MoviesPresenter.parseMovies(Foundation.Data) -&gt; Swift.Bool"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/Movies/MoviesPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "924">
+               </Location>
+               <Location
+                  uuid = "4B34C1AB-7BF0-4DD7-9B46-C6D48E441055 - 4d50156b1f02611f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "softtekPrueba.MoviesPresenter.parseMovies(Foundation.Data) -&gt; Swift.Bool"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/Movies/MoviesPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "776">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AB7262F-010D-4AD8-B16B-5D510D15992A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9AB7262F-010D-4AD8-B16B-5D510D15992A - b1f8491ab3219b88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in softtekPrueba.SceneDelegate.scene(_: __C.UIScene, willConnectTo: __C.UISceneSession, options: __C.UISceneConnectionOptions) -&gt; ()"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "9AB7262F-010D-4AD8-B16B-5D510D15992A - b1f8491ab3219baf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in softtekPrueba.SceneDelegate.scene(_: __C.UIScene, willConnectTo: __C.UISceneSession, options: __C.UISceneConnectionOptions) -&gt; ()"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD11C037-7137-4665-8A1C-148E30203422"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Data/swiftData/Service/DatabaseService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82969387-09C6-477C-A961-C7A8871812D8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Movies/MoviesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "presentMovies(movies:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCE1F377-3865-41F0-9D02-8086E95F3F7E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Data/swiftData/Service/DatabaseService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "exist(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DCE1F377-3865-41F0-9D02-8086E95F3F7E - 8523e3ac6b4b81dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "softtekPrueba.DatabaseServiceMovie.exist(id: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/Data/swiftData/Service/DatabaseService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "788">
+               </Location>
+               <Location
+                  uuid = "DCE1F377-3865-41F0-9D02-8086E95F3F7E - 8523e3ac6b4b81dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "softtekPrueba.DatabaseServiceMovie.exist(id: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/Data/swiftData/Service/DatabaseService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "984">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE6C39FB-5F95-4A00-BE86-496FA7AA5768"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Login/LoginRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "showLoginModule(window:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD6CA868-FCA3-4C4F-AE28-EE559C5265C2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "didTapEnter(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FD6CA868-FCA3-4C4F-AE28-EE559C5265C2 - 45181c077f06108b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "softtekPrueba.LoginViewController.didTapEnter(Any) -&gt; ()"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "FD6CA868-FCA3-4C4F-AE28-EE559C5265C2 - 45181c077f06108b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "softtekPrueba.LoginViewController.didTapEnter(Any) -&gt; ()"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D64A78DF-FEE2-4A6C-9EF3-4FDE5E5F1DD4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Login/LoginRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "goToListMovies()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA7F3133-4739-4290-B59C-D5845E029FD0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Login/LoginPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "validateUser(user:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C348F00-6D44-498F-BD77-E44B721836FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Login/LoginRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "goToListMovies()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0C348F00-6D44-498F-BD77-E44B721836FD - 4d8b29c89d98ec0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "softtekPrueba.LoginRouter.goToListMovies() -&gt; ()"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/Login/LoginRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "0C348F00-6D44-498F-BD77-E44B721836FD - 4d8b29c89d98ec0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "softtekPrueba.LoginRouter.goToListMovies() -&gt; ()"
+                  moduleName = "softtekPrueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oswaldoescobarhuisa/Documents/PruebasTecnicas/softtekPrueba/softtekPrueba/Login/LoginRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D4649B2-0778-43CE-BA8A-A4853F4F601C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Login/LoginRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "goToListMovies()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F771D2CD-973A-4957-9922-FEE81F32973A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Movies/MoviesRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "showMoviesModule(vc:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BC748C3-091C-4743-A8FF-FD150935660A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/Movies/MoviesRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "goToDetailMovies(viewData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D44027E-3239-46C9-A659-381434648B04"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/DetailMovies/DetailMoviesRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "showDetailMovieModule(navigation:viewData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C414A83-0AEF-4155-ABCA-7107B852E0CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "softtekPrueba/DetailMovies/DetailMovieViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "presentMovies(movie:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

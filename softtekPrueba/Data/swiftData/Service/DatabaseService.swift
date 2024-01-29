@@ -40,6 +40,18 @@ class DatabaseServiceMovie {
         }
     }
     
+    func saveMovie(movie: ModelMovie?) {
+        guard let movie
+        else {
+            print("error en Movies")
+            return
+        }
+        if !exist(id: movie.id) {
+            context?.insert(movie)
+        }
+    }
+    
+    
     func fetchData(onCompletion:@escaping([ModelMovie]?,Error?)->(Void)) {
         let descriptor = FetchDescriptor<ModelMovie>(sortBy: [SortDescriptor<ModelMovie>(\.id)])
         do {
