@@ -22,4 +22,17 @@ class LoginInteractor: LoginInteractorProtocol {
        return true
     }
     
+    
+}
+
+//MARK: LoginTesteable Moock
+class LoginInteractorMoock: LoginInteractorProtocol {
+    typealias QueryResult = (DataResponse<Any>?) -> ()
+    
+    func validateUser(user:LoginEntity)-> Bool {
+        if user.user.contains("Admin") && user.password.contains("123") {
+            return true
+        }
+        return true
+    }
 }
